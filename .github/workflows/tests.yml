@@ -8,7 +8,7 @@ jobs:
   test-bot:
     strategy:
       matrix:
-        os: [macos-12]
+        os: [macos-latest, self-hosted]
     runs-on: ${{ matrix.os }}
     env:
       HOMEBREW_NO_INSTALL_FROM_API: 1
