@@ -5,6 +5,11 @@ class Appcu < Formula
   sha256 "88b6701048742db0cd6fd7185876d38e16b647d9182b3123311e2b2fcfa0f082"
   license "MIT"
 
+  bottle do
+    root_url "https://github.com/ChengLuffy/homebrew-appcu/releases/download/appcu-0.1.1"
+    sha256 cellar: :any_skip_relocation, monterey: "19aa8180ee2b5e54794a641a51cb642d878da8f1a70493b47876eece90ec65ad"
+  end
+
   depends_on "rust" => :build
   depends_on :macos
 
