@@ -2,9 +2,9 @@
 
 ## How do I install these formulae?
 
-`brew install chengluffy/appcu/<formula>`
+`brew install chengluffy/appcu/appcu`
 
-Or `brew tap chengluffy/appcu` and then `brew install <formula>`.
+Or `brew tap chengluffy/appcu` and then `brew install appcu`.
 
 ## Documentation
 
