@@ -18,7 +18,7 @@ class Appcu < Formula
   end
 
   test do
-    system bin/"appcu", "generate_config"
+    system bin/"appcu", "gc"
     assert_predicate testpath/".config/appcu/config.yaml", :exist?
   end
 end
