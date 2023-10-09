@@ -1,8 +1,8 @@
 class Appcu < Formula
   desc "一个用于检查 macOS 应用更新的 CLI 工具"
   homepage "https://github.com/ChengLuffy/application_check_update"
-  url "https://github.com/ChengLuffy/application_check_update/archive/refs/tags/v0.1.8.tar.gz"
-  sha256 "e219bb3bb2cd6057108493c32753e00e88c258811a1d05df80b393dae2d9de4c"
+  url "https://github.com/ChengLuffy/application_check_update/archive/refs/tags/v0.1.9.tar.gz"
+  sha256 "de13c239842aed259bed2b147ad4f1137ad68df4f46c522bc3a172c94908b167"
   license "MIT"
 
   bottle do
