@@ -6,8 +6,8 @@ class Appcu < Formula
   license "MIT"
 
   bottle do
-    root_url "https://github.com/ChengLuffy/homebrew-appcu/releases/download/appcu-0.2.0"
-    sha256 cellar: :any_skip_relocation, monterey: "b3ed1e0cc463d465b6301d069f4fe8cf091a784e67c02de4fdda7749885efd4a"
+    root_url "https://github.com/ChengLuffy/homebrew-appcu/releases/download/appcu-0.3.3"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "5dc8c4098937701b90a6b9ebf8a935835795eeb02d8c55313236908e417f473b"
   end
 
   depends_on "rust" => :build
